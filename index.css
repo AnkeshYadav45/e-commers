@@ -1,0 +1,129 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: .8rem 1.2rem;
+  align-items: center;
+}
+
+/* General Reset for Links and Buttons */
+a, button {
+  text-decoration: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+/* Upper Section */
+.upper button {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  background-color: #807177;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.upper button:hover {
+  background-color: #ff4e7e;
+}
+.links{
+  margin-left:600px;
+  margin-top: 9px;
+
+}
+/* Navigation Links */
+.links a {
+  color: #0c0a0a;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  top: 8%;
+  right: 3%;
+  
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Authentication Buttons */
+.auth-buttons button {
+  top: 2%;
+  right: 14%;
+  background-color: #807177;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.auth-buttons button:hover {
+  background-color: #218838;
+}
+
+
+/* Gallery Styling */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+}
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.product h3 {
+  font-size: 27px;
+  margin: 9px 0;
+}
+.product p {
+  font-size: 26px;
+  color: #333;
+  margin-top:9px ;
+  margin-bottom: 9px;
+}
+.product .buttons {
+  display: flex; /* Create a flex container */
+  gap: 30px;/* Add spacing between buttons */
+  justify-content: center; /* Center align the buttons */
+}
+.product .buttons button {
+  
+  margin: 30px;
+  top: 18px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block; /* Buttons remain inline */
+}
+.product button:hover {
+  background-color: #5fb300;
+}
