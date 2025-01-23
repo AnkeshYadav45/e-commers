@@ -1,0 +1,126 @@
+/* General Reset */
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1.5rem 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+}
+
+.navbar h1{
+    color: #020202;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Login Box */
+.box {
+    background-color: rgba(255, 255, 255, 0.904);
+    padding: 2rem;
+    border-radius: 23px ;
+    box-shadow: 0 14px 12px rgba(255, 1, 1, 0.979);
+    width: 66%;
+    height: 70vh;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+.box h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.name, .pass {
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #160d07f3;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #0077b6;
+    outline: none;
+}
+input[type="email"], input[type="email"] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #160d07f3;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+input[type="email"]:focus, input[type="email"]:focus {
+    border-color: #0077b6;
+    outline: none;
+}
+button {
+    background-color: #0077b6;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #005f8d;
+}
+p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #000000;
+}
+p a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+p a:hover {
+    color: #005f8d;
+}

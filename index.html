@@ -8,7 +8,6 @@
 </head>
 <body>
    <nav class="navbar"> 
-   
       <div class="upper">
         <button onclick="greet()">E-commerce</button>
       </div>
@@ -19,14 +18,10 @@
         <a href="#">Contact</a>
       </div>
       <div class="auth-buttons">
-        <button class="login">Log in</button>
-        <button class="register">Register</button>
-      
+        <button class="login" onclick="navigateTologin()">Log in</button>
+        <button class="register" onclick="registerhere()">Register</button>
     </div>
    </nav> 
-   
-   
-
   <div class="gallery">
     <div class="product">
       <img src="photos/photo.jpeg" alt="Stylecast" class="product-image">
@@ -84,5 +79,7 @@
     </div>
   </div>
   <script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
 </body>
 </html>
