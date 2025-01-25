@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="login .css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,31 @@
     <title>Login Page</title>
 </head>
 <body>
+    <div class="container">
+        <img src="photos/log.jpeg" alt="loginimg" class="image">
+</div> 
     <div class="navbar">
-        <h1>E-commers</h1>
-    </div>
+        <h1>BECOME AN EXCLUSIVE MEMBER</h1>
         <div class="box">
-            <h2>register Here</h2>
+            <h2>SIGN UP AND JOIN START SHOPPING</h2>
             <form action="login" method="post">
                 <div class="name">
-                    <input type="email" id="username" name="username" placeholder="Enter your emailId" required>
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <input type="text" id="username" name="username" placeholder="Johnson abort" required>
                 </div>
-                <br>
+                <div class="email">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" id="emailId" name="emailId" placeholder="Johnson@gmail.com" required>
+                </div>
                 <div class="pass">
-                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                </div>
-                <br>
-                <div class="pass1">
-                    <input type="password" id="password" name="password" placeholder="Enter your password again" required>
+                    <span><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" id="password" name="password" placeholder="*********" required>
                 </div>
                 <button type="submit">Register</button>
-                <br>
                 <p>already have an account? <a href="login.html">login</a></p>
             </form>
         </div>
+    </div>
         <script src="index.js"></script>
 </body>
-</html>
+</html>  
