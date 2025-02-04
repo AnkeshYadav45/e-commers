@@ -6,16 +6,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Login page for accessing your account.">
-    <title>Login Page</title>
+    <title>signup Page</title>
 </head>
 <body>
+    <nav class="navbar"> 
+        <div class="upper">
+          <button onclick="greet()">E-commerce</button>
+        </div>
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">Products</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="auth-buttons">
+          <button class="login" onclick="navigateTologin()">Log in</button>
+          <button class="register" onclick="registerhere()">Register</button>
+      </div>
+     </nav> 
     <div class="container">
+    <div class="image">
         <img src="photos/log.jpeg" alt="loginimg" class="image">
-</div> 
-    <div class="navbar">
-        <h1>BECOME AN EXCLUSIVE MEMBER</h1>
+    </div>
+    <div>
+        <button class="back" onclick="navigateToHome()">
+            <img src="photos/Shape.png" alt="Back Icon" class="button-icon"> Back to Home
+        </button>
+    </div>
         <div class="box">
-            <h2>SIGN UP AND JOIN START SHOPPING</h2>
+            <h1>BECOME AN EXCLUSIVE MEMBER</h1>
+            <h2>SIGN UP AND JOIN </h2>
             <form action="login" method="post">
                 <div class="name">
                     <span><i class="fa-solid fa-user"></i></span>
@@ -29,7 +49,7 @@
                     <span><i class="fa-solid fa-lock"></i></span>
                     <input type="password" id="password" name="password" placeholder="*********" required>
                 </div>
-                <button type="submit">Register</button>
+                <button type="submit" onclick="navigateToHome()">Register</button>
                 <p>already have an account? <a href="login.html">login</a></p>
             </form>
         </div>
