@@ -169,12 +169,13 @@ position: absolute;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    overflow: hidden;
   }
   .navbar{
     display: flex;
     justify-content: space-between;
-     height: 65px;
-     box-shadow: 0 2px 2px rgba(7, 7, 7, 0.1);
+    height: 8vh;
+    box-shadow: 0 2px 2px rgba(7, 7, 7, 0.1);
     padding: .2rem .2rem; 
     align-items: center;
   }
@@ -237,35 +238,19 @@ position: absolute;
   }
   .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    height: 600px;
-    top: 0px;
     position: relative;
+    height: 100vh;
 }
 .back{
     display: flex;
-    position: absolute;
-    background-color: #ffffff;
-    color: #000000;
-    top: 0px;
-    right: 560px; 
-    border: 0px;
-    border-radius: 0px;
-    font-size: 10px;
-    padding: 0px;
+    margin-left: 2.5vw;
 }
 button.back {
-    display: flex;
-    align-items: center;
     padding: 10px 15px;
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
+    background: transparent;
     cursor: pointer;
-    border-radius: 5px;
     font-size: 1rem;
+    border: none;
 }
 
 .button-icon {
@@ -274,40 +259,42 @@ button.back {
     margin-right: 8px;
 }
 
+.proceed {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4vh 6vh;
+    height: 8vh;
+}
+
+.image{
+    width: 30%;
+}
+
 .image img {
     position: absolute;
     left: 0;
     height: 100%; /* Match the container height */
-    width: 40%; /* Maintain aspect ratio */
+    width: 30%; /* Maintain aspect ratio */
     border-radius: 1px;
     top: 0px;
     object-fit: cover;
 }
 .box {
-    position: absolute;
-    top : 150px;
-    height: 350px;
-    width: 40%;
-    right: 85px;
-    background-color: rgb(255, 255, 255);
+    height: 40vh;
+    width: 30vw;
+    background: transparent;
     padding: 1px;
     border-radius: 5px;
     box-shadow: 0 0 2px rgb(255, 255, 255);
+    margin: 12vh 45vh;
 }
 .box h1{
-    align-items: center;
-    margin-bottom: 29px;
-    margin-left: 50px;
-    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 1.5em;
     color: #333;
 }
-.box h2 {
-    align-items: center;
-    margin-bottom: 20px;
-    margin-left: 130px;
-    font-size: medium;
-    color: #666060;
-}
+
 .box form {
     display: flex;
     flex-direction: column;
@@ -353,12 +340,10 @@ button.back {
     pointer-events: none; /* Prevent icon from interfering with input clicks */
 }
 .box form button {
-    padding: 10px;
     background-color: #333;
     color: white;
     border: none;
     width: 100%;
-    height: 50px;
     cursor: pointer;
     font-size: 1em;
 }
@@ -370,17 +355,21 @@ button.back {
     background-color: #000000;
 }
 .box p {
+    margin-bottom: 5vh;
+    font-size: medium;
     text-align: center;
-    margin-top: 15px;
+    color: #666060;
 }
 .box p a {
-    color: #0077b6;
-    font: 20px;
-    text-decoration: none;
-}
-.box p a:hover {
+    color: black;
+    font-weight: bold;
     text-decoration: underline;
 }
+
+.footer{
+    margin-top: 5vh;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
