@@ -1,180 +1,16 @@
-/* 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 0px;
-    background-color: hsl(0, 0%, 100%);
-    color: white;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.navbar .head  {
-    background: none;
-    border: none;
-    display: block;
-    background-color: rgba(255, 255, 255, 0.89);
-    top: 0;
-    left: 0;
-    right: 0;
-    font-size: 1.5em;
-    position: absolute;
-    cursor: pointer;
-}
-.head{
-    position:relative;
-    height: 70px;
-} 
-.head .links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    margin-right: 140px; 
-    margin-left: 600px;
-     top: 20px;
-    
-}
-.head .links a {
-    color: rgb(67, 206, 206);
-    text-decoration: none;
-    margin: 0 15px;
-}
-.head .auth-buttons{    
-position: absolute;
-  top: 20%;
-  right: 2%;
-  background-color: #807177;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-}
-.auth-buttons{
-    
-}
-
-}
-.container {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    max-width: 1200px;
-    margin-top: 30px; 
-}
-.image {
-    position: absolute;
-    left: 0%;
-    width: 60%;
-    height: 100%;
-    top: 35px;
-    border-radius: 10px;
-}
-.box {
-    position: absolute;
-    right: 6%;
-    width: 30%;
-    top: 200px;
-    height:50% ;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.box h1 {
-    margin-bottom: 25px;
-    font-size: 1.5em;
-    color: #333;
-}
-.box h2 {
-    margin-bottom: 20px;
-    font-size: 1.5em;
-    color: #333;
-}
-
-.box form {
-    display: flex;
-    flex-direction: column;
-}
-
-.box form .name,
-.box form .email {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.box form .name span,
-.box form .email span {
-    margin-right: 10px;
-    color: #555;
-}
-
-.box form input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-}
-
-.box form button {
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-.box form button:hover {
-    background-color: #555;
-}
-
-.box p {
-    text-align: center;
-    margin-top: 15px;
-}
-
-.box p a {
-    color: #333;
-    text-decoration: none;
-}
-
-.box p a:hover {
-    text-decoration: underline;
-} 
-
- */
-
- body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f9f9f9;
+    overflow: hidden;
   }
   .navbar{
     display: flex;
     justify-content: space-between;
-     height: 65px;
-     box-shadow: 0 2px 2px rgba(7, 7, 7, 0.1);
+    height: 8vh;
+    box-shadow: 0 2px 2px rgba(7, 7, 7, 0.1);
     padding: .2rem .2rem; 
     align-items: center;
   }
@@ -185,51 +21,47 @@ position: absolute;
   }
   .upper button {
     position: absolute;
-    top: 3%;
-    left: 2%;
+    top: 1.5vh;
+    left: 2vw;
     background-color: #807177;
     color: #fff;
-    padding: 10px 20px;
+    padding: 2vh 3vw;
     border: none;
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 1vh;
+    font-size: 2vh;
   }
-  
   .upper button:hover {
     background-color: #ff4e7e;
   }
-  .links{
-    margin-left:640px;
-    margin-top: 9px;
-    font-size: 30px;
+  .links {
+    margin-left: 44.4vw;
+    margin-top: 1.25vh;
+    font-size: 2.08vh; 
     font-family: Arial, Helvetica, sans-serif;
-  
-  
-  }
+}
+
   .links a {
     color: #0c0a0a;
     text-decoration: none;
-    margin: 0 10px;
-    font-size: 20px;
+    margin: 0 1vw;
+    font-size: 3vh;
     font-weight: bold;
-    top: 8%;
-    right: 3%;
-    
+    top: 8vh;
+    right: 3vw;
   }
-  
   .links a:hover {
     text-decoration: underline;
   }
   .auth-buttons button {
-    top: 2%;
-    right: 10%;
+    top: 1vh;
+    right: 10vw;
     background-color: #807177;
     color: #fff;
-    padding: 8px 16px;
+    padding: 1.5vh 3vw;
     border: none;
-    border-radius: 10px;
-    margin-left: 30px;
-    font-size: 19px;
+    border-radius: 1vh;
+    margin-left: 3vw;
+    font-size: 2.5vh;
   }
   
   .auth-buttons button:hover {
@@ -237,77 +69,59 @@ position: absolute;
   }
   .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    height: 600px;
-    top: 0px;
     position: relative;
+    height: 100vh;
 }
 .back{
     display: flex;
-    position: absolute;
-    background-color: #ffffff;
-    color: #000000;
-    top: 0px;
-    right: 560px; 
-    border: 0px;
-    border-radius: 0px;
-    font-size: 10px;
-    padding: 0px;
+    margin-left: 1.4vw;
 }
 button.back {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
+    padding: 1vh 1vw;
+    background: transparent;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 1rem;
+    font-size: 3vh;
+    border: none;
 }
-
 .button-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
+    width: 3vh;
+    height: 3vh;
+    margin-right: .3vw;
 }
-
+.proceed {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4vh 6vh;
+    height: 8vh;
+}
+.image{
+    width: 30%;
+}
 .image img {
     position: absolute;
     left: 0;
-    height: 100%; /* Match the container height */
-    width: 40%; /* Maintain aspect ratio */
+    height: 100%; 
+    width: 30%; 
     border-radius: 1px;
     top: 0px;
     object-fit: cover;
 }
 .box {
-    position: absolute;
-    top : 150px;
-    height: 350px;
-    width: 40%;
-    right: 85px;
-    background-color: rgb(255, 255, 255);
+    height: 40vh;
+    width: 30vw;
+    background: transparent;
     padding: 1px;
     border-radius: 5px;
     box-shadow: 0 0 2px rgb(255, 255, 255);
+    margin: 12vh 45vh;
 }
 .box h1{
-    align-items: center;
-    margin-bottom: 29px;
-    margin-left: 50px;
-    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: 1.5em;
     color: #333;
 }
-.box h2 {
-    align-items: center;
-    margin-bottom: 20px;
-    margin-left: 130px;
-    font-size: medium;
-    color: #666060;
-}
+
 .box form {
     display: flex;
     flex-direction: column;
@@ -317,26 +131,26 @@ button.back {
     position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 1.5vh;
 }
 .box form .pass {
     position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 1.5vh;
 }
 .box form input {
-    padding: 10px 10px 10px 40px; /* Add left padding to create space for the icon */
+    padding: 2vh 2vw 2vh 5vw;
     border: 1px solid #ccc;
     width: 100%;
-    height: 55px;
-    border-radius: 5px;
+    height: 6vh;
+    border-radius: 1vh;
     box-sizing: border-box;
 }
 .box form .name span,
 .box form .email span {
     position: absolute;
-    left: 10px;
+    left: 1vw;
     top: 50%;
     transform: translateY(-50%);
     color: #555;
@@ -345,7 +159,7 @@ button.back {
 }
 .box form .pass span {
     position: absolute;
-    left: 10px;
+    left: 1vw;
     top: 50%;
     transform: translateY(-50%);
     color: #555;
@@ -353,14 +167,13 @@ button.back {
     pointer-events: none; /* Prevent icon from interfering with input clicks */
 }
 .box form button {
-    padding: 10px;
     background-color: #333;
     color: white;
     border: none;
     width: 100%;
-    height: 50px;
     cursor: pointer;
     font-size: 1em;
+    height:8vh ;
 }
 .box form input:focus {
     border-color: #0077b6;
@@ -370,21 +183,24 @@ button.back {
     background-color: #000000;
 }
 .box p {
+    margin-bottom: 5vh;
+    font-size: medium;
     text-align: center;
-    margin-top: 15px;
+    color: #666060;
 }
 .box p a {
-    color: #0077b6;
-    font: 20px;
-    text-decoration: none;
-}
-.box p a:hover {
+    color: black;
+    font-weight: bold;
     text-decoration: underline;
 }
+.footer{
+    margin-top: 5vh;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        padding: 20px;
+        padding: 2vh;
     }
     .image img {
         max-width: 100%;
