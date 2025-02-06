@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     overflow: hidden;
+    overflow: hidden;
   }
   .navbar{
     display: flex;
@@ -97,6 +98,17 @@ button.back {
 .image{
     width: 30%;
 }
+.proceed {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.4vh 6vh;
+    height: 8vh;
+}
+
+.image{
+    width: 30%;
+}
+
 .image img {
     position: absolute;
     left: 0;
@@ -183,8 +195,6 @@ button.back {
     background-color: #000000;
 }
 .box p {
-    margin-bottom: 5vh;
-    font-size: medium;
     text-align: center;
     color: #666060;
 }
