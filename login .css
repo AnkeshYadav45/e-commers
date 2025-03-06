@@ -6,11 +6,12 @@ body {
     background-color: #f9f9f9;
     overflow: hidden;
     overflow: hidden;
-  }.navbar {
+  }
+  .navbar{
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 0.3vh 0.5vh rgba(0, 0, 0, 0.1);
-    padding: 2vh 1.8vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: .8rem 1.2rem;
     align-items: center;
   }
   a, button {
@@ -20,43 +21,44 @@ body {
   }
   .upper button {
     position: absolute;
-    top: 2vh;
-    left: 2vw;
+    top: 2%;
+    left: 2%;
     background-color: #807177;
     color: #fff;
-    padding: 1.7vh 1.7vw;
+    padding: 10px 20px;
     border: none;
-    border-radius: 0.8vh;
-    font-size: 2.7vh;
+    border-radius: 5px;
+    font-size: 18px;
   }
   .upper button:hover {
     background-color: #ff4e7e;
   }
-  .links {
-    margin-left: 35vw;
-    margin-top: 1.2vh;
+  .links{
+    margin-left:600px;
+    margin-top: 9px;
   }
   .links a {
     color: #0c0a0a;
     text-decoration: none;
-    margin: 0 .6vw;
-    font-size: 2.7vh;
-    top: 8vh;
-    right: 2.8vw;
+    margin: 0 10px;
+    font-size: 16px;
+    top: 8%;
+    right: 3%;
+    
   }
   .links a:hover {
     text-decoration: underline;
   }
   .auth-buttons button {
-    top: 2vh;
-    right: 14vw;
+    top: 2%;
+    right: 14%;
     background-color: #807177;
     color: #fff;
-    padding: 1.5vh 1.8vw;
+    padding: 8px 16px;
     border: none;
-    border-radius: 0.8vh;
-    margin-left: 1.3vw;
-    font-size: 2.4vh;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
   }
   .auth-buttons button:hover {
     background-color: #218838;
